@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from "./Header";
+import AppComponent from "./AppComponent";
 
 
 window.addEventListener('load', () => {
-    ReactDOM.render(<Header/>, document.getElementById('root'))
+    ReactDOM.render(<AppComponent/>, document.getElementById('root'))
 })
